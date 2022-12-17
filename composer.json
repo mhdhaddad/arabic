@@ -1,0 +1,32 @@
+{
+  "name": "mhdhaddad/arabic",
+  "description": "",
+  "keywords": [
+  ],
+  "license": "All Rights Reserved",
+  "type": "project",
+  "require": {
+    "php": "^8.0",
+    "ext-mbstring": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5.10"
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "preferred-install": "dist",
+    "sort-packages": true
+  },
+  "autoload": {
+    "psr-4": {
+      "Mhdhaddad\\Arabic\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Test\\": "tests/"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
