@@ -1,6 +1,5 @@
 <?php
 
-namespace Test;
 
 use Mhdhaddad\Arabic\Arabic;
 use PHPUnit\Framework\TestCase;

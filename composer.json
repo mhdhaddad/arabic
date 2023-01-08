@@ -3,7 +3,7 @@
   "description": "",
   "keywords": [
   ],
-  "license": "All Rights Reserved",
+  "license": "GPL-3.0-only",
   "type": "project",
   "require": {
     "php": "^8.0",
